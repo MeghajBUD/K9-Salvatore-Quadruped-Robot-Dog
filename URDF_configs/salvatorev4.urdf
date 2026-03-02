@@ -1,0 +1,1705 @@
+<?xml version="1.0" ?>
+<robot name="export_2">
+  <link name="Main_body_Frame_1">
+    <visual name="Main_body_Frame_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Main_body_Frame_1.stl"/>
+      </geometry>
+      <material name="Main_body_Frame_1-material">
+        <color rgba="0 1 0 1"/>
+      </material>
+    </visual>
+    <collision name="Main_body_Frame_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Main_body_Frame_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="40.709309"/>
+      <inertia ixx="5.3014982" iyy="1.7432423" izz="5.6060952" ixy="0.00013237504" ixz="-3.0772611e-05" iyz="0.12318189"/>
+      <origin xyz="0.05704262 0.39902841 -0.60960291" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Front_Right_Side_Motor_Cap_1">
+    <visual name="Front_Right_Side_Motor_Cap_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Front_Right_Side_Motor_Cap_1.stl"/>
+      </geometry>
+      <material name="Front_Right_Side_Motor_Cap_1-material">
+        <color rgba="1 0.5 0 1"/>
+      </material>
+    </visual>
+    <collision name="Front_Right_Side_Motor_Cap_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Front_Right_Side_Motor_Cap_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.038445397"/>
+      <inertia ixx="1.2919398e-05" iyy="8.105131e-06" izz="2.0383772e-05" ixy="-4.6719566e-08" ixz="0" iyz="0"/>
+      <origin xyz="-0.005369886 -6.9013995e-05 -0.005" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Front_Left_Side_Motor_Cap_1">
+    <visual name="Front_Left_Side_Motor_Cap_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Front_Left_Side_Motor_Cap_1.stl"/>
+      </geometry>
+      <material name="Front_Left_Side_Motor_Cap_1-material">
+        <color rgba="1 0 1 1"/>
+      </material>
+    </visual>
+    <collision name="Front_Left_Side_Motor_Cap_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Front_Left_Side_Motor_Cap_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.036819948"/>
+      <inertia ixx="1.252909e-05" iyy="7.1203646e-06" izz="1.9035789e-05" ixy="-1.7621389e-08" ixz="0" iyz="0"/>
+      <origin xyz="0.0064472835 6.8545897e-05 -0.005" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Back_Left_Motor_Cap_1">
+    <visual name="Back_Left_Motor_Cap_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Back_Left_Motor_Cap_1.stl"/>
+      </geometry>
+      <material name="Back_Left_Motor_Cap_1-material">
+        <color rgba="1 0 0.5 1"/>
+      </material>
+    </visual>
+    <collision name="Back_Left_Motor_Cap_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Back_Left_Motor_Cap_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.036819948"/>
+      <inertia ixx="1.252909e-05" iyy="7.1203646e-06" izz="1.9035789e-05" ixy="-1.7621389e-08" ixz="0" iyz="0"/>
+      <origin xyz="-0.0064472835 -6.8545897e-05 0.005" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Back_Right_Motor_Cap_1">
+    <visual name="Back_Right_Motor_Cap_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Back_Right_Motor_Cap_1.stl"/>
+      </geometry>
+      <material name="Back_Right_Motor_Cap_1-material">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision name="Back_Right_Motor_Cap_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Back_Right_Motor_Cap_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.038445397"/>
+      <inertia ixx="1.2919398e-05" iyy="8.105131e-06" izz="2.0383772e-05" ixy="4.6719566e-08" ixz="0" iyz="0"/>
+      <origin xyz="0.005369886 -6.9013995e-05 -0.005" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="AK40_36_KV80_A_1">
+    <visual name="AK40_36_KV80_A_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/AK40_36_KV80_A_1.stl"/>
+      </geometry>
+      <material name="AK40_36_KV80_A_1-material">
+        <color rgba="1 0.5 0 1"/>
+      </material>
+    </visual>
+    <collision name="AK40_36_KV80_A_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/AK40_36_KV80_A_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="1" iyy="1" izz="1" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="AK40_36_KV80_A_2">
+    <visual name="AK40_36_KV80_A_2_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/AK40_36_KV80_A_2.stl"/>
+      </geometry>
+      <material name="AK40_36_KV80_A_2-material">
+        <color rgba="1 0 0.5 1"/>
+      </material>
+    </visual>
+    <collision name="AK40_36_KV80_A_2_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/AK40_36_KV80_A_2.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="1" iyy="1" izz="1" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="AK40_36_KV80_A_3">
+    <visual name="AK40_36_KV80_A_3_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/AK40_36_KV80_A_3.stl"/>
+      </geometry>
+      <material name="AK40_36_KV80_A_3-material">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+    <collision name="AK40_36_KV80_A_3_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/AK40_36_KV80_A_3.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="1" iyy="1" izz="1" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="AK40_36_KV80_A_4">
+    <visual name="AK40_36_KV80_A_4_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/AK40_36_KV80_A_4.stl"/>
+      </geometry>
+      <material name="AK40_36_KV80_A_4-material">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+    <collision name="AK40_36_KV80_A_4_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/AK40_36_KV80_A_4.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="1" iyy="1" izz="1" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_1_Outer_thigh_1">
+    <visual name="Right_Leg_Assembly_1_Outer_thigh_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Outer_thigh_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_1_Outer_thigh_1-material">
+        <color rgba="1 0 0.5 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_1_Outer_thigh_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Outer_thigh_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="3.3378492"/>
+      <inertia ixx="0.057680395" iyy="0.012978648" izz="0.057236495" ixy="0.0017596739" ixz="0" iyz="0"/>
+      <origin xyz="-0.0018861715 0.12285376 -0.07437531" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_4_Outer_thigh_1">
+    <visual name="Right_Leg_Assembly_4_Outer_thigh_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Outer_thigh_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_4_Outer_thigh_1-material">
+        <color rgba="1 1 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_4_Outer_thigh_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Outer_thigh_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="3.3378492"/>
+      <inertia ixx="0.057680395" iyy="0.012978648" izz="0.057236495" ixy="-0.0017596739" ixz="0" iyz="0"/>
+      <origin xyz="-0.0018861715 -0.12285376 -0.07437531" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_3_Outer_thigh_1">
+    <visual name="Right_Leg_Assembly_3_Outer_thigh_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Outer_thigh_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_3_Outer_thigh_1-material">
+        <color rgba="0 1 1 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_3_Outer_thigh_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Outer_thigh_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="3.3378492"/>
+      <inertia ixx="0.012978648" iyy="0.057680395" izz="0.057236495" ixy="-0.0017596739" ixz="0" iyz="0"/>
+      <origin xyz="-0.12285376 -0.0018861715 0.07437531" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_2_Outer_thigh_1">
+    <visual name="Right_Leg_Assembly_2_Outer_thigh_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Outer_thigh_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_2_Outer_thigh_1-material">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_2_Outer_thigh_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Outer_thigh_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="3.3378492"/>
+      <inertia ixx="0.012978648" iyy="0.057680395" izz="0.057236495" ixy="0.0017596739" ixz="0" iyz="0"/>
+      <origin xyz="-0.12285376 0.0018861715 0.07437531" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_1_Pivot_Pin_1">
+    <visual name="Right_Leg_Assembly_1_Pivot_Pin_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Pivot_Pin_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_1_Pivot_Pin_1-material">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_1_Pivot_Pin_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Pivot_Pin_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.04898376"/>
+      <inertia ixx="2.834978e-05" iyy="2.834978e-05" izz="3.7950585e-06" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="-1.1268554e-09 3.0808358e-09 -0.04025" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_1_Top_of_Leg_1">
+    <visual name="Right_Leg_Assembly_1_Top_of_Leg_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Top_of_Leg_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_1_Top_of_Leg_1-material">
+        <color rgba="1 0.5 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_1_Top_of_Leg_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Top_of_Leg_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.27058091"/>
+      <inertia ixx="0.00045632541" iyy="0.00082938101" izz="0.0003923439" ixy="1.7906402e-08" ixz="-4.2683757e-08" iyz="4.8057604e-09"/>
+      <origin xyz="4.4065298e-05 -0.0034981918 -0.074363174" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_4_Pivot_Pin_1">
+    <visual name="Right_Leg_Assembly_4_Pivot_Pin_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Pivot_Pin_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_4_Pivot_Pin_1-material">
+        <color rgba="1 1 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_4_Pivot_Pin_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Pivot_Pin_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.04898376"/>
+      <inertia ixx="2.834978e-05" iyy="2.834978e-05" izz="3.7950585e-06" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="-1.1268554e-09 3.0808358e-09 -0.04025" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_4_Top_of_Leg_1">
+    <visual name="Right_Leg_Assembly_4_Top_of_Leg_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Top_of_Leg_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_4_Top_of_Leg_1-material">
+        <color rgba="0 0 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_4_Top_of_Leg_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Top_of_Leg_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.27058091"/>
+      <inertia ixx="0.00045632541" iyy="0.00082938101" izz="0.0003923439" ixy="1.7906402e-08" ixz="-4.2683757e-08" iyz="4.8057604e-09"/>
+      <origin xyz="4.4065298e-05 -0.0034981918 -0.074363174" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_3_Pivot_Pin_1">
+    <visual name="Right_Leg_Assembly_3_Pivot_Pin_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Pivot_Pin_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_3_Pivot_Pin_1-material">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_3_Pivot_Pin_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Pivot_Pin_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.04898376"/>
+      <inertia ixx="2.834978e-05" iyy="2.834978e-05" izz="3.7950585e-06" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="-1.1268554e-09 3.0808358e-09 -0.04025" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_3_Top_of_Leg_1">
+    <visual name="Right_Leg_Assembly_3_Top_of_Leg_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Top_of_Leg_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_3_Top_of_Leg_1-material">
+        <color rgba="0 1 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_3_Top_of_Leg_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Top_of_Leg_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.27058091"/>
+      <inertia ixx="0.00045632541" iyy="0.00082938101" izz="0.0003923439" ixy="1.7906402e-08" ixz="-4.2683757e-08" iyz="4.8057604e-09"/>
+      <origin xyz="4.4065298e-05 -0.0034981918 -0.074363174" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_2_Pivot_Pin_1">
+    <visual name="Right_Leg_Assembly_2_Pivot_Pin_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Pivot_Pin_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_2_Pivot_Pin_1-material">
+        <color rgba="0 1 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_2_Pivot_Pin_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Pivot_Pin_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.04898376"/>
+      <inertia ixx="2.834978e-05" iyy="2.834978e-05" izz="3.7950585e-06" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="-1.1268554e-09 3.0808358e-09 -0.04025" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_2_Top_of_Leg_1">
+    <visual name="Right_Leg_Assembly_2_Top_of_Leg_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Top_of_Leg_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_2_Top_of_Leg_1-material">
+        <color rgba="1 1 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_2_Top_of_Leg_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Top_of_Leg_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.27058091"/>
+      <inertia ixx="0.00045632541" iyy="0.00082938101" izz="0.0003923439" ixy="1.7906402e-08" ixz="-4.2683757e-08" iyz="4.8057604e-09"/>
+      <origin xyz="4.4065298e-05 -0.0034981918 -0.074363174" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_1_Shin_1">
+    <visual name="Right_Leg_Assembly_1_Shin_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Shin_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_1_Shin_1-material">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_1_Shin_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Shin_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.43019319"/>
+      <inertia ixx="0.00016316235" iyy="0.0033347768" izz="0.0034692596" ixy="0.00015800528" ixz="0" iyz="0"/>
+      <origin xyz="-0.03232495 0.00026305446 7.0059769e-19" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_1_Motor_Hinge_Pin_1">
+    <visual name="Right_Leg_Assembly_1_Motor_Hinge_Pin_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Motor_Hinge_Pin_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_1_Motor_Hinge_Pin_1-material">
+        <color rgba="0 0 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_1_Motor_Hinge_Pin_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Motor_Hinge_Pin_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.0074426293"/>
+      <inertia ixx="4.4182471e-06" iyy="4.4182471e-06" izz="8.3962162e-08" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="-2.2286517e-18 0 -0.042" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_4_Shin_1">
+    <visual name="Right_Leg_Assembly_4_Shin_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Shin_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_4_Shin_1-material">
+        <color rgba="1 1 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_4_Shin_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Shin_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.43019319"/>
+      <inertia ixx="0.00016316235" iyy="0.0033347768" izz="0.0034692596" ixy="0.00015800528" ixz="0" iyz="0"/>
+      <origin xyz="-0.03232495 0.00026305446 7.5238479e-19" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_4_Motor_Hinge_Pin_1">
+    <visual name="Right_Leg_Assembly_4_Motor_Hinge_Pin_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Motor_Hinge_Pin_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_4_Motor_Hinge_Pin_1-material">
+        <color rgba="1 0 1 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_4_Motor_Hinge_Pin_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Motor_Hinge_Pin_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.0074426293"/>
+      <inertia ixx="4.4182471e-06" iyy="4.4182471e-06" izz="8.3962162e-08" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="-2.2286517e-18 0 -0.042" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_3_Shin_1">
+    <visual name="Right_Leg_Assembly_3_Shin_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Shin_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_3_Shin_1-material">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_3_Shin_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Shin_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.43019319"/>
+      <inertia ixx="0.00016316235" iyy="0.0033347768" izz="0.0034692596" ixy="0.00015800528" ixz="0" iyz="0"/>
+      <origin xyz="-0.03232495 0.00026305446 6.6500387e-19" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_3_Motor_Hinge_Pin_1">
+    <visual name="Right_Leg_Assembly_3_Motor_Hinge_Pin_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Motor_Hinge_Pin_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_3_Motor_Hinge_Pin_1-material">
+        <color rgba="0 1 1 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_3_Motor_Hinge_Pin_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Motor_Hinge_Pin_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.0074426293"/>
+      <inertia ixx="4.4182471e-06" iyy="4.4182471e-06" izz="8.3962162e-08" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="-2.2286517e-18 0 -0.042" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_2_Shin_1">
+    <visual name="Right_Leg_Assembly_2_Shin_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Shin_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_2_Shin_1-material">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_2_Shin_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Shin_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.43019319"/>
+      <inertia ixx="0.00016316235" iyy="0.0033347768" izz="0.0034692596" ixy="0.00015800528" ixz="0" iyz="0"/>
+      <origin xyz="-0.03232495 0.00026305446 7.0059769e-19" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_2_Motor_Hinge_Pin_1">
+    <visual name="Right_Leg_Assembly_2_Motor_Hinge_Pin_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Motor_Hinge_Pin_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_2_Motor_Hinge_Pin_1-material">
+        <color rgba="1 0.5 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_2_Motor_Hinge_Pin_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Motor_Hinge_Pin_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.0074426293"/>
+      <inertia ixx="4.4182471e-06" iyy="4.4182471e-06" izz="8.3962162e-08" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="-2.2286517e-18 0 -0.042" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_1_Non_Pivot_Pin_1">
+    <visual name="Right_Leg_Assembly_1_Non_Pivot_Pin_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Non_Pivot_Pin_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_1_Non_Pivot_Pin_1-material">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_1_Non_Pivot_Pin_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Non_Pivot_Pin_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.0093512741"/>
+      <inertia ixx="1.6286335e-06" iyy="1.6286335e-06" izz="2.5362215e-07" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="3.1065909e-19 3.841939e-09 -8.6736174e-19" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_1_Feet_1">
+    <visual name="Right_Leg_Assembly_1_Feet_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Feet_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_1_Feet_1-material">
+        <color rgba="1 0 0.5 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_1_Feet_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Feet_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.086054124"/>
+      <inertia ixx="7.8011271e-05" iyy="5.7583207e-05" izz="2.6165015e-05" ixy="-3.8176071e-11" ixz="0" iyz="-7.8031193e-08"/>
+      <origin xyz="1.1405145e-17 -0.00013248519 -0.037564926" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_1_Motor_Hinge_1">
+    <visual name="Right_Leg_Assembly_1_Motor_Hinge_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Motor_Hinge_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_1_Motor_Hinge_1-material">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_1_Motor_Hinge_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Motor_Hinge_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.063732457"/>
+      <inertia ixx="2.0302235e-05" iyy="2.9868475e-05" izz="1.4438046e-05" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="5.1915815e-19 -0.0026699471 0" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_4_Non_Pivot_Pin_1">
+    <visual name="Right_Leg_Assembly_4_Non_Pivot_Pin_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Non_Pivot_Pin_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_4_Non_Pivot_Pin_1-material">
+        <color rgba="1 0 1 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_4_Non_Pivot_Pin_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Non_Pivot_Pin_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.0093512741"/>
+      <inertia ixx="1.6286335e-06" iyy="1.6286335e-06" izz="2.5362215e-07" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="3.1065909e-19 3.841939e-09 -8.6736174e-19" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_4_Feet_1">
+    <visual name="Right_Leg_Assembly_4_Feet_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Feet_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_4_Feet_1-material">
+        <color rgba="0 1 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_4_Feet_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Feet_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.086054124"/>
+      <inertia ixx="7.8011271e-05" iyy="5.7583207e-05" izz="2.6165015e-05" ixy="-3.8176071e-11" ixz="0" iyz="-7.8031193e-08"/>
+      <origin xyz="1.1405145e-17 -0.00013248519 -0.037564926" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_4_Motor_Hinge_1">
+    <visual name="Right_Leg_Assembly_4_Motor_Hinge_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Motor_Hinge_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_4_Motor_Hinge_1-material">
+        <color rgba="0 0 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_4_Motor_Hinge_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Motor_Hinge_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.063732457"/>
+      <inertia ixx="2.0302235e-05" iyy="2.9868475e-05" izz="1.4438046e-05" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="5.1915815e-19 -0.0026699471 0" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_3_Non_Pivot_Pin_1">
+    <visual name="Right_Leg_Assembly_3_Non_Pivot_Pin_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Non_Pivot_Pin_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_3_Non_Pivot_Pin_1-material">
+        <color rgba="1 1 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_3_Non_Pivot_Pin_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Non_Pivot_Pin_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.0093512741"/>
+      <inertia ixx="1.6286335e-06" iyy="1.6286335e-06" izz="2.5362215e-07" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="3.1065909e-19 3.841939e-09 -8.6736174e-19" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_3_Feet_1">
+    <visual name="Right_Leg_Assembly_3_Feet_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Feet_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_3_Feet_1-material">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_3_Feet_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Feet_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.086054124"/>
+      <inertia ixx="7.8011271e-05" iyy="5.7583207e-05" izz="2.6165015e-05" ixy="-3.8176071e-11" ixz="0" iyz="-7.8031193e-08"/>
+      <origin xyz="1.1405145e-17 -0.00013248519 -0.037564926" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_3_Motor_Hinge_1">
+    <visual name="Right_Leg_Assembly_3_Motor_Hinge_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Motor_Hinge_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_3_Motor_Hinge_1-material">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_3_Motor_Hinge_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Motor_Hinge_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.063732457"/>
+      <inertia ixx="2.0302235e-05" iyy="2.9868475e-05" izz="1.4438046e-05" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="5.1915815e-19 -0.0026699471 1.5354525e-19" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_2_Non_Pivot_Pin_1">
+    <visual name="Right_Leg_Assembly_2_Non_Pivot_Pin_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Non_Pivot_Pin_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_2_Non_Pivot_Pin_1-material">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_2_Non_Pivot_Pin_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Non_Pivot_Pin_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.0093512741"/>
+      <inertia ixx="1.6286335e-06" iyy="1.6286335e-06" izz="2.5362215e-07" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="3.1065909e-19 3.841939e-09 -8.6736174e-19" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_2_Feet_1">
+    <visual name="Right_Leg_Assembly_2_Feet_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Feet_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_2_Feet_1-material">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_2_Feet_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Feet_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.086054124"/>
+      <inertia ixx="7.8011271e-05" iyy="5.7583207e-05" izz="2.6165015e-05" ixy="-3.8176071e-11" ixz="0" iyz="-7.8031193e-08"/>
+      <origin xyz="1.1405145e-17 -0.00013248519 -0.037564926" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_2_Motor_Hinge_1">
+    <visual name="Right_Leg_Assembly_2_Motor_Hinge_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Motor_Hinge_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_2_Motor_Hinge_1-material">
+        <color rgba="0 0 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_2_Motor_Hinge_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Motor_Hinge_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.063732457"/>
+      <inertia ixx="2.0302235e-05" iyy="2.9868475e-05" izz="1.4438046e-05" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="5.1915815e-19 -0.0026699471 0" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_1_Connector_Screw_to_Shin_1">
+    <visual name="Right_Leg_Assembly_1_Connector_Screw_to_Shin_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Connector_Screw_to_Shin_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_1_Connector_Screw_to_Shin_1-material">
+        <color rgba="1 0.5 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_1_Connector_Screw_to_Shin_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Connector_Screw_to_Shin_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.24207345"/>
+      <inertia ixx="8.4536501e-05" iyy="0.0012571012" izz="0.0012496908" ixy="0" ixz="-1.1790319e-06" iyz="0"/>
+      <origin xyz="0.1636239 -2.0080886e-18 -0.021533972" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_1_AK40_36_KV80_A_1">
+    <visual name="Right_Leg_Assembly_1_AK40_36_KV80_A_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_AK40_36_KV80_A_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_1_AK40_36_KV80_A_1-material">
+        <color rgba="0 1 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_1_AK40_36_KV80_A_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_AK40_36_KV80_A_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="1" iyy="1" izz="1" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_4_Connector_Screw_to_Shin_1">
+    <visual name="Right_Leg_Assembly_4_Connector_Screw_to_Shin_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Connector_Screw_to_Shin_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_4_Connector_Screw_to_Shin_1-material">
+        <color rgba="0 1 1 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_4_Connector_Screw_to_Shin_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Connector_Screw_to_Shin_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.24207345"/>
+      <inertia ixx="8.4536501e-05" iyy="0.0012571012" izz="0.0012496908" ixy="0" ixz="-1.1790319e-06" iyz="0"/>
+      <origin xyz="0.1636239 -1.9887219e-18 -0.021533972" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_4_AK40_36_KV80_A_1">
+    <visual name="Right_Leg_Assembly_4_AK40_36_KV80_A_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_AK40_36_KV80_A_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_4_AK40_36_KV80_A_1-material">
+        <color rgba="1 1 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_4_AK40_36_KV80_A_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_AK40_36_KV80_A_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="1" iyy="1" izz="1" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_3_Connector_Screw_to_Shin_1">
+    <visual name="Right_Leg_Assembly_3_Connector_Screw_to_Shin_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Connector_Screw_to_Shin_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_3_Connector_Screw_to_Shin_1-material">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_3_Connector_Screw_to_Shin_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Connector_Screw_to_Shin_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.24207345"/>
+      <inertia ixx="8.4536501e-05" iyy="0.0012571012" izz="0.0012496908" ixy="0" ixz="-1.1790319e-06" iyz="0"/>
+      <origin xyz="0.1636239 -2.0166313e-18 -0.021533972" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_3_AK40_36_KV80_A_1">
+    <visual name="Right_Leg_Assembly_3_AK40_36_KV80_A_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_AK40_36_KV80_A_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_3_AK40_36_KV80_A_1-material">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_3_AK40_36_KV80_A_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_AK40_36_KV80_A_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="1" iyy="1" izz="1" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_2_Connector_Screw_to_Shin_1">
+    <visual name="Right_Leg_Assembly_2_Connector_Screw_to_Shin_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Connector_Screw_to_Shin_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_2_Connector_Screw_to_Shin_1-material">
+        <color rgba="1 1 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_2_Connector_Screw_to_Shin_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Connector_Screw_to_Shin_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.24207345"/>
+      <inertia ixx="8.4536501e-05" iyy="0.0012571012" izz="0.0012496908" ixy="0" ixz="-1.1790319e-06" iyz="0"/>
+      <origin xyz="0.1636239 -1.9845244e-18 -0.021533972" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_2_AK40_36_KV80_A_1">
+    <visual name="Right_Leg_Assembly_2_AK40_36_KV80_A_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_AK40_36_KV80_A_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_2_AK40_36_KV80_A_1-material">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_2_AK40_36_KV80_A_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_AK40_36_KV80_A_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="1" iyy="1" izz="1" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_1_Nut_for_Screw_1">
+    <visual name="Right_Leg_Assembly_1_Nut_for_Screw_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Nut_for_Screw_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_1_Nut_for_Screw_1-material">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_1_Nut_for_Screw_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Nut_for_Screw_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.031655104"/>
+      <inertia ixx="8.485227e-06" iyy="8.4832917e-06" izz="1.0018414e-05" ixy="-8.4948028e-10" ixz="-1.7570463e-08" iyz="-1.8466205e-08"/>
+      <origin xyz="4.4238936e-05 -1.7107226e-05 0.0018367543" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_1_Screw_for_Nut_1">
+    <visual name="Right_Leg_Assembly_1_Screw_for_Nut_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Screw_for_Nut_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_1_Screw_for_Nut_1-material">
+        <color rgba="1 0 1 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_1_Screw_for_Nut_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Screw_for_Nut_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.05488579"/>
+      <inertia ixx="0.00018843062" iyy="0.00018842875" izz="2.8454558e-06" ixy="-2.9131939e-09" ixz="4.291466e-08" iyz="1.2768433e-07"/>
+      <origin xyz="1.0934975e-05 -2.6279199e-05 0.086328998" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_4_Nut_for_Screw_1">
+    <visual name="Right_Leg_Assembly_4_Nut_for_Screw_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Nut_for_Screw_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_4_Nut_for_Screw_1-material">
+        <color rgba="1 0 1 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_4_Nut_for_Screw_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Nut_for_Screw_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.031655104"/>
+      <inertia ixx="8.485227e-06" iyy="8.4832917e-06" izz="1.0018414e-05" ixy="-8.4948028e-10" ixz="-1.7570463e-08" iyz="-1.8466205e-08"/>
+      <origin xyz="4.4238936e-05 -1.7107226e-05 0.0018367543" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_4_Screw_for_Nut_1">
+    <visual name="Right_Leg_Assembly_4_Screw_for_Nut_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Screw_for_Nut_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_4_Screw_for_Nut_1-material">
+        <color rgba="0 1 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_4_Screw_for_Nut_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Screw_for_Nut_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.05488579"/>
+      <inertia ixx="0.00018843062" iyy="0.00018842875" izz="2.8454558e-06" ixy="-2.9131939e-09" ixz="4.291466e-08" iyz="1.2768433e-07"/>
+      <origin xyz="1.0934975e-05 -2.6279199e-05 0.086328998" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_3_Nut_for_Screw_1">
+    <visual name="Right_Leg_Assembly_3_Nut_for_Screw_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Nut_for_Screw_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_3_Nut_for_Screw_1-material">
+        <color rgba="0 0 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_3_Nut_for_Screw_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Nut_for_Screw_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.031655104"/>
+      <inertia ixx="8.485227e-06" iyy="8.4832917e-06" izz="1.0018414e-05" ixy="-8.4948028e-10" ixz="-1.7570463e-08" iyz="-1.8466205e-08"/>
+      <origin xyz="4.4238936e-05 -1.7107226e-05 0.0018367543" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_3_Screw_for_Nut_1">
+    <visual name="Right_Leg_Assembly_3_Screw_for_Nut_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Screw_for_Nut_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_3_Screw_for_Nut_1-material">
+        <color rgba="1 0 0.5 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_3_Screw_for_Nut_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Screw_for_Nut_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.05488579"/>
+      <inertia ixx="0.00018843062" iyy="0.00018842875" izz="2.8454558e-06" ixy="-2.9131939e-09" ixz="4.291466e-08" iyz="1.2768433e-07"/>
+      <origin xyz="1.0934975e-05 -2.6279199e-05 0.086328998" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_2_Nut_for_Screw_1">
+    <visual name="Right_Leg_Assembly_2_Nut_for_Screw_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Nut_for_Screw_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_2_Nut_for_Screw_1-material">
+        <color rgba="0 0 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_2_Nut_for_Screw_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Nut_for_Screw_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.031655104"/>
+      <inertia ixx="8.485227e-06" iyy="8.4832917e-06" izz="1.0018414e-05" ixy="-8.4948028e-10" ixz="-1.7570463e-08" iyz="-1.8466205e-08"/>
+      <origin xyz="4.4238936e-05 -1.7107226e-05 0.0018367543" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_2_Screw_for_Nut_1">
+    <visual name="Right_Leg_Assembly_2_Screw_for_Nut_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Screw_for_Nut_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_2_Screw_for_Nut_1-material">
+        <color rgba="0 0 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_2_Screw_for_Nut_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Screw_for_Nut_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.05488579"/>
+      <inertia ixx="0.00018843062" iyy="0.00018842875" izz="2.8454558e-06" ixy="-2.9131939e-09" ixz="4.291466e-08" iyz="1.2768433e-07"/>
+      <origin xyz="1.0934975e-05 -2.6279199e-05 0.086328998" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_1_Ball_Clamp_1">
+    <visual name="Right_Leg_Assembly_1_Ball_Clamp_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Ball_Clamp_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_1_Ball_Clamp_1-material">
+        <color rgba="0 1 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_1_Ball_Clamp_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_1_Ball_Clamp_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.0011850211"/>
+      <inertia ixx="8.5360065e-08" iyy="8.5360065e-08" izz="1.6662867e-07" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="-7.907374e-19 -1.4003096e-18 -0.0022500073" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_4_Ball_Clamp_1">
+    <visual name="Right_Leg_Assembly_4_Ball_Clamp_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Ball_Clamp_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_4_Ball_Clamp_1-material">
+        <color rgba="0 1 1 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_4_Ball_Clamp_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_4_Ball_Clamp_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.0011850211"/>
+      <inertia ixx="8.5360065e-08" iyy="8.5360065e-08" izz="1.6662867e-07" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="-7.907374e-19 -1.4013598e-18 -0.0022500073" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_3_Ball_Clamp_1">
+    <visual name="Right_Leg_Assembly_3_Ball_Clamp_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Ball_Clamp_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_3_Ball_Clamp_1-material">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_3_Ball_Clamp_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_3_Ball_Clamp_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.0011850211"/>
+      <inertia ixx="8.5360065e-08" iyy="8.5360065e-08" izz="1.6662867e-07" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="-7.907374e-19 -1.3837905e-18 -0.0022500073" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <link name="Right_Leg_Assembly_2_Ball_Clamp_1">
+    <visual name="Right_Leg_Assembly_2_Ball_Clamp_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Ball_Clamp_1.stl"/>
+      </geometry>
+      <material name="Right_Leg_Assembly_2_Ball_Clamp_1-material">
+        <color rgba="1 1 0 1"/>
+      </material>
+    </visual>
+    <collision name="Right_Leg_Assembly_2_Ball_Clamp_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="../custom_meshes/Right_Leg_Assembly_2_Ball_Clamp_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.0011850211"/>
+      <inertia ixx="8.5360065e-08" iyy="8.5360065e-08" izz="1.6662867e-07" ixy="0" ixz="0" iyz="0"/>
+      <origin xyz="-8.0096245e-19 -1.4071263e-18 -0.0022500073" rpy="0 0 0"/>
+    </inertial>
+  </link>
+  <joint name="Front_Right_Mount_To_Body" type="fixed">
+    <origin xyz="0.227029 0.07776784 -0.6147399" rpy="1.5707963 0 1.5707963"/>
+    <parent link="Main_body_Frame_1"/>
+    <child link="Front_Right_Side_Motor_Cap_1"/>
+  </joint>
+  <joint name="Front_Left_Motor_Mount_to" type="fixed">
+    <origin xyz="-0.112971 0.07776784 -0.6147399" rpy="-1.5707963 0 1.5707963"/>
+    <parent link="Main_body_Frame_1"/>
+    <child link="Front_Left_Side_Motor_Cap_1"/>
+  </joint>
+  <joint name="Back_Left_Motor_Mount_to_Body" type="fixed">
+    <origin xyz="-0.112971 0.65776784 -0.6147399" rpy="1.5707963 0 1.5707963"/>
+    <parent link="Main_body_Frame_1"/>
+    <child link="Back_Left_Motor_Cap_1"/>
+  </joint>
+  <joint name="Back_Right_Motor_Mount_to_Body" type="fixed">
+    <origin xyz="0.227029 0.65776784 -0.6147399" rpy="1.5707963 0 1.5707963"/>
+    <parent link="Main_body_Frame_1"/>
+    <child link="Back_Right_Motor_Cap_1"/>
+  </joint>
+  <joint name="Front_Right_Motor_to_Mount" type="fixed">
+    <origin xyz="0 0 0" rpy="3.1415927 0 -1.5707963"/>
+    <parent link="Front_Right_Side_Motor_Cap_1"/>
+    <child link="AK40_36_KV80_A_1"/>
+  </joint>
+  <joint name="Front_Left_Motor_to_Mount" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="Front_Left_Side_Motor_Cap_1"/>
+    <child link="AK40_36_KV80_A_2"/>
+  </joint>
+  <joint name="Back_Left_Motor_to_Mount" type="fixed">
+    <origin xyz="0 0 0" rpy="3.1415927 0 0"/>
+    <parent link="Back_Left_Motor_Cap_1"/>
+    <child link="AK40_36_KV80_A_3"/>
+  </joint>
+  <joint name="Back_right_motor_to_Mount" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="Back_Right_Motor_Cap_1"/>
+    <child link="AK40_36_KV80_A_4"/>
+  </joint>
+  <joint name="Front_Right_Leg_to_Motor" type="revolute">
+    <origin xyz="0 0 -0.052" rpy="0 0 -1.5707963"/>
+    <parent link="AK40_36_KV80_A_1"/>
+    <child link="Right_Leg_Assembly_1_Outer_thigh_1"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="1" velocity="1" lower="-6.2831853" upper="6.2831853"/>
+  </joint>
+  <joint name="Front_Left_Leg_to_Motor_Revolve" type="revolute">
+    <origin xyz="-0.0008379 0.00022488 0.052" rpy="3.1415927 0 0"/>
+    <parent link="AK40_36_KV80_A_2"/>
+    <child link="Right_Leg_Assembly_4_Outer_thigh_1"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="1" velocity="1" lower="-6.2831853" upper="6.2831853"/>
+  </joint>
+  <joint name="Back_Left_Leg_Revolve" type="revolute">
+    <origin xyz="0 0 0.052" rpy="0 0 -1.5707963"/>
+    <parent link="AK40_36_KV80_A_3"/>
+    <child link="Right_Leg_Assembly_3_Outer_thigh_1"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="1" velocity="1" lower="-6.2831853" upper="6.2831853"/>
+  </joint>
+  <joint name="Back_Right_Leg_to_Motor_Revolve" type="revolute">
+    <origin xyz="0 0 0.052" rpy="0 0 1.5707963"/>
+    <parent link="AK40_36_KV80_A_4"/>
+    <child link="Right_Leg_Assembly_2_Outer_thigh_1"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="1" velocity="1" lower="-6.2831853" upper="6.2831853"/>
+  </joint>
+  <joint name="Pivot_pin_to_Outer_Thigh_Mate" type="revolute">
+    <origin xyz="-0.03164705 0.39002158 -0.11437531" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_1_Outer_thigh_1"/>
+    <child link="Right_Leg_Assembly_1_Pivot_Pin_1"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="1" velocity="1" lower="-6.2831853" upper="6.2831853"/>
+  </joint>
+  <joint name="Fastened_5" type="fixed">
+    <origin xyz="0 -0.05630123 0" rpy="0 0 0"/>
+    <parent link="Right_Leg_Assembly_1_Outer_thigh_1"/>
+    <child link="Right_Leg_Assembly_1_Top_of_Leg_1"/>
+  </joint>
+  <joint name="Pivot_pin_to_Outer_Thigh_Mate-1" type="revolute">
+    <origin xyz="-0.03164705 -0.39002158 -0.03437531" rpy="0 0 0"/>
+    <parent link="Right_Leg_Assembly_4_Outer_thigh_1"/>
+    <child link="Right_Leg_Assembly_4_Pivot_Pin_1"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="1" velocity="1" lower="-6.2831853" upper="6.2831853"/>
+  </joint>
+  <joint name="Fastened_5-1" type="fixed">
+    <origin xyz="0 0.05630123 -0.14875062" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_4_Outer_thigh_1"/>
+    <child link="Right_Leg_Assembly_4_Top_of_Leg_1"/>
+  </joint>
+  <joint name="Pivot_pin_to_Outer_Thigh_Mate-2" type="revolute">
+    <origin xyz="-0.39002158 -0.03164705 0.03437531" rpy="3.1415927 0 1.5707963"/>
+    <parent link="Right_Leg_Assembly_3_Outer_thigh_1"/>
+    <child link="Right_Leg_Assembly_3_Pivot_Pin_1"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="1" velocity="1" lower="-6.2831853" upper="6.2831853"/>
+  </joint>
+  <joint name="Fastened_5-2" type="fixed">
+    <origin xyz="0.05630123 0 0.14875062" rpy="0 0 1.5707963"/>
+    <parent link="Right_Leg_Assembly_3_Outer_thigh_1"/>
+    <child link="Right_Leg_Assembly_3_Top_of_Leg_1"/>
+  </joint>
+  <joint name="Pivot_pin_to_Outer_Thigh_Mate-3" type="revolute">
+    <origin xyz="-0.39002158 0.03164705 0.11437531" rpy="0 0 -1.5707963"/>
+    <parent link="Right_Leg_Assembly_2_Outer_thigh_1"/>
+    <child link="Right_Leg_Assembly_2_Pivot_Pin_1"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="1" velocity="1" lower="-6.2831853" upper="6.2831853"/>
+  </joint>
+  <joint name="Fastened_5-3" type="fixed">
+    <origin xyz="0.05630123 0 0" rpy="3.1415927 0 -1.5707963"/>
+    <parent link="Right_Leg_Assembly_2_Outer_thigh_1"/>
+    <child link="Right_Leg_Assembly_2_Top_of_Leg_1"/>
+  </joint>
+  <joint name="Pivot_Pin_to_Shin" type="fixed">
+    <origin xyz="0 0 -0.04025" rpy="0 0 0"/>
+    <parent link="Right_Leg_Assembly_1_Pivot_Pin_1"/>
+    <child link="Right_Leg_Assembly_1_Shin_1"/>
+  </joint>
+  <joint name="Cylindrical_1" type="prismatic">
+    <origin xyz="0 0.0175 -0.116375" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_1_Top_of_Leg_1"/>
+    <child link="Right_Leg_Assembly_1_Motor_Hinge_Pin_1"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="1" velocity="1" lower="-0.1" upper="0.1"/>
+  </joint>
+  <joint name="Pivot_Pin_to_Shin-1" type="fixed">
+    <origin xyz="0 0 -0.04025" rpy="0 0 0"/>
+    <parent link="Right_Leg_Assembly_4_Pivot_Pin_1"/>
+    <child link="Right_Leg_Assembly_4_Shin_1"/>
+  </joint>
+  <joint name="Cylindrical_1-1" type="prismatic">
+    <origin xyz="0 0.0175 -0.116375" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_4_Top_of_Leg_1"/>
+    <child link="Right_Leg_Assembly_4_Motor_Hinge_Pin_1"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="1" velocity="1" lower="-0.1" upper="0.1"/>
+  </joint>
+  <joint name="Pivot_Pin_to_Shin-2" type="fixed">
+    <origin xyz="0 0 -0.04025" rpy="0 0 0"/>
+    <parent link="Right_Leg_Assembly_3_Pivot_Pin_1"/>
+    <child link="Right_Leg_Assembly_3_Shin_1"/>
+  </joint>
+  <joint name="Cylindrical_1-2" type="prismatic">
+    <origin xyz="0 0.0175 -0.116375" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_3_Top_of_Leg_1"/>
+    <child link="Right_Leg_Assembly_3_Motor_Hinge_Pin_1"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="1" velocity="1" lower="-0.1" upper="0.1"/>
+  </joint>
+  <joint name="Pivot_Pin_to_Shin-3" type="fixed">
+    <origin xyz="0 0 -0.04025" rpy="0 0 0"/>
+    <parent link="Right_Leg_Assembly_2_Pivot_Pin_1"/>
+    <child link="Right_Leg_Assembly_2_Shin_1"/>
+  </joint>
+  <joint name="Cylindrical_1-3" type="prismatic">
+    <origin xyz="0 0.0175 -0.116375" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_2_Top_of_Leg_1"/>
+    <child link="Right_Leg_Assembly_2_Motor_Hinge_Pin_1"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="1" velocity="1" lower="-0.1" upper="0.1"/>
+  </joint>
+  <joint name="NonPivot_to_Shin" type="fixed">
+    <origin xyz="0.03164705 0.00326759 0" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_1_Shin_1"/>
+    <child link="Right_Leg_Assembly_1_Non_Pivot_Pin_1"/>
+  </joint>
+  <joint name="Connect_Shin_and_Foot" type="fixed">
+    <origin xyz="-0.18294605 0.00366571 0" rpy="3.1415927 -1.5707963 0"/>
+    <parent link="Right_Leg_Assembly_1_Shin_1"/>
+    <child link="Right_Leg_Assembly_1_Feet_1"/>
+  </joint>
+  <joint name="Combine_Motor_Pin_and_Hinge" type="fixed">
+    <origin xyz="0 0 -0.042" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_1_Motor_Hinge_Pin_1"/>
+    <child link="Right_Leg_Assembly_1_Motor_Hinge_1"/>
+  </joint>
+  <joint name="NonPivot_to_Shin-1" type="fixed">
+    <origin xyz="0.03164705 0.00326759 0" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_4_Shin_1"/>
+    <child link="Right_Leg_Assembly_4_Non_Pivot_Pin_1"/>
+  </joint>
+  <joint name="Connect_Shin_and_Foot-1" type="fixed">
+    <origin xyz="-0.18294605 0.00366571 0" rpy="3.1415927 -1.5707963 0"/>
+    <parent link="Right_Leg_Assembly_4_Shin_1"/>
+    <child link="Right_Leg_Assembly_4_Feet_1"/>
+  </joint>
+  <joint name="Combine_Motor_Pin_and_Hinge-1" type="fixed">
+    <origin xyz="0 0 -0.042" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_4_Motor_Hinge_Pin_1"/>
+    <child link="Right_Leg_Assembly_4_Motor_Hinge_1"/>
+  </joint>
+  <joint name="NonPivot_to_Shin-2" type="fixed">
+    <origin xyz="0.03164705 0.00326759 0" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_3_Shin_1"/>
+    <child link="Right_Leg_Assembly_3_Non_Pivot_Pin_1"/>
+  </joint>
+  <joint name="Connect_Shin_and_Foot-2" type="fixed">
+    <origin xyz="-0.18294605 0.00366571 0" rpy="3.1415927 -1.5707963 0"/>
+    <parent link="Right_Leg_Assembly_3_Shin_1"/>
+    <child link="Right_Leg_Assembly_3_Feet_1"/>
+  </joint>
+  <joint name="Combine_Motor_Pin_and_Hinge-2" type="fixed">
+    <origin xyz="0 0 -0.042" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_3_Motor_Hinge_Pin_1"/>
+    <child link="Right_Leg_Assembly_3_Motor_Hinge_1"/>
+  </joint>
+  <joint name="NonPivot_to_Shin-3" type="fixed">
+    <origin xyz="0.03164705 0.00326759 0" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_2_Shin_1"/>
+    <child link="Right_Leg_Assembly_2_Non_Pivot_Pin_1"/>
+  </joint>
+  <joint name="Connect_Shin_and_Foot-3" type="fixed">
+    <origin xyz="-0.18294605 0.00366571 0" rpy="3.1415927 -1.5707963 0"/>
+    <parent link="Right_Leg_Assembly_2_Shin_1"/>
+    <child link="Right_Leg_Assembly_2_Feet_1"/>
+  </joint>
+  <joint name="Combine_Motor_Pin_and_Hinge-3" type="fixed">
+    <origin xyz="0 0 -0.042" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_2_Motor_Hinge_Pin_1"/>
+    <child link="Right_Leg_Assembly_2_Motor_Hinge_1"/>
+  </joint>
+  <joint name="NonPivot_to_Connector" type="prismatic">
+    <origin xyz="0 0 -0.02195" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_1_Non_Pivot_Pin_1"/>
+    <child link="Right_Leg_Assembly_1_Connector_Screw_to_Shin_1"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="1" velocity="1" lower="-0.1" upper="0.1"/>
+  </joint>
+  <joint name="Motor_to_Hinge_pin" type="fixed">
+    <origin xyz="0 0.0075 0" rpy="1.5707963 1.5707963 0"/>
+    <parent link="Right_Leg_Assembly_1_Motor_Hinge_1"/>
+    <child link="Right_Leg_Assembly_1_AK40_36_KV80_A_1"/>
+  </joint>
+  <joint name="NonPivot_to_Connector-1" type="prismatic">
+    <origin xyz="0 0 -0.02195" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_4_Non_Pivot_Pin_1"/>
+    <child link="Right_Leg_Assembly_4_Connector_Screw_to_Shin_1"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="1" velocity="1" lower="-0.1" upper="0.1"/>
+  </joint>
+  <joint name="Motor_to_Hinge_pin-1" type="fixed">
+    <origin xyz="0 0.0075 0" rpy="1.5707963 1.5707963 0"/>
+    <parent link="Right_Leg_Assembly_4_Motor_Hinge_1"/>
+    <child link="Right_Leg_Assembly_4_AK40_36_KV80_A_1"/>
+  </joint>
+  <joint name="NonPivot_to_Connector-2" type="prismatic">
+    <origin xyz="0 0 -0.02195" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_3_Non_Pivot_Pin_1"/>
+    <child link="Right_Leg_Assembly_3_Connector_Screw_to_Shin_1"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="1" velocity="1" lower="-0.1" upper="0.1"/>
+  </joint>
+  <joint name="Motor_to_Hinge_pin-2" type="fixed">
+    <origin xyz="0 0.0075 0" rpy="1.5707963 1.5707963 0"/>
+    <parent link="Right_Leg_Assembly_3_Motor_Hinge_1"/>
+    <child link="Right_Leg_Assembly_3_AK40_36_KV80_A_1"/>
+  </joint>
+  <joint name="NonPivot_to_Connector-3" type="prismatic">
+    <origin xyz="0 0 -0.02195" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_2_Non_Pivot_Pin_1"/>
+    <child link="Right_Leg_Assembly_2_Connector_Screw_to_Shin_1"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="1" velocity="1" lower="-0.1" upper="0.1"/>
+  </joint>
+  <joint name="Motor_to_Hinge_pin-3" type="fixed">
+    <origin xyz="0 0.0075 0" rpy="1.5707963 1.5707963 0"/>
+    <parent link="Right_Leg_Assembly_2_Motor_Hinge_1"/>
+    <child link="Right_Leg_Assembly_2_AK40_36_KV80_A_1"/>
+  </joint>
+  <joint name="Connect_nut_to_connector" type="fixed">
+    <origin xyz="0.26697128 0 -0.0215" rpy="3.1415927 1.5707963 0"/>
+    <parent link="Right_Leg_Assembly_1_Connector_Screw_to_Shin_1"/>
+    <child link="Right_Leg_Assembly_1_Nut_for_Screw_1"/>
+  </joint>
+  <joint name="Fasten_motor_to_screw" type="fixed">
+    <origin xyz="0 0 -0.052" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_1_AK40_36_KV80_A_1"/>
+    <child link="Right_Leg_Assembly_1_Screw_for_Nut_1"/>
+  </joint>
+  <joint name="Connect_nut_to_connector-1" type="fixed">
+    <origin xyz="0.26697128 0 -0.0215" rpy="3.1415927 1.5707963 0"/>
+    <parent link="Right_Leg_Assembly_4_Connector_Screw_to_Shin_1"/>
+    <child link="Right_Leg_Assembly_4_Nut_for_Screw_1"/>
+  </joint>
+  <joint name="Fasten_motor_to_screw-1" type="fixed">
+    <origin xyz="0 0 -0.052" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_4_AK40_36_KV80_A_1"/>
+    <child link="Right_Leg_Assembly_4_Screw_for_Nut_1"/>
+  </joint>
+  <joint name="Connect_nut_to_connector-2" type="fixed">
+    <origin xyz="0.26697128 0 -0.0215" rpy="3.1415927 1.5707963 0"/>
+    <parent link="Right_Leg_Assembly_3_Connector_Screw_to_Shin_1"/>
+    <child link="Right_Leg_Assembly_3_Nut_for_Screw_1"/>
+  </joint>
+  <joint name="Fasten_motor_to_screw-2" type="fixed">
+    <origin xyz="0 0 -0.052" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_3_AK40_36_KV80_A_1"/>
+    <child link="Right_Leg_Assembly_3_Screw_for_Nut_1"/>
+  </joint>
+  <joint name="Connect_nut_to_connector-3" type="fixed">
+    <origin xyz="0.26697128 0 -0.0215" rpy="3.1415927 1.5707963 0"/>
+    <parent link="Right_Leg_Assembly_2_Connector_Screw_to_Shin_1"/>
+    <child link="Right_Leg_Assembly_2_Nut_for_Screw_1"/>
+  </joint>
+  <joint name="Fasten_motor_to_screw-3" type="fixed">
+    <origin xyz="0 0 -0.052" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_2_AK40_36_KV80_A_1"/>
+    <child link="Right_Leg_Assembly_2_Screw_for_Nut_1"/>
+  </joint>
+  <joint name="Top_Ball_Clamp_to_Nut" type="fixed">
+    <origin xyz="0 0 -0.0112037" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_1_Nut_for_Screw_1"/>
+    <child link="Right_Leg_Assembly_1_Ball_Clamp_1"/>
+  </joint>
+  <joint name="Top_Ball_Clamp_to_Nut-1" type="fixed">
+    <origin xyz="0 0 -0.0112037" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_4_Nut_for_Screw_1"/>
+    <child link="Right_Leg_Assembly_4_Ball_Clamp_1"/>
+  </joint>
+  <joint name="Top_Ball_Clamp_to_Nut-2" type="fixed">
+    <origin xyz="0 0 -0.0112037" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_3_Nut_for_Screw_1"/>
+    <child link="Right_Leg_Assembly_3_Ball_Clamp_1"/>
+  </joint>
+  <joint name="Top_Ball_Clamp_to_Nut-3" type="fixed">
+    <origin xyz="0 0 -0.0112037" rpy="3.1415927 0 0"/>
+    <parent link="Right_Leg_Assembly_2_Nut_for_Screw_1"/>
+    <child link="Right_Leg_Assembly_2_Ball_Clamp_1"/>
+  </joint>
+  <joint name="Slider_1" type="prismatic">
+    <origin xyz="0 0 -0.00225" rpy="3.1415927 0 3.1415927"/>
+    <parent link="Right_Leg_Assembly_1_Ball_Clamp_1"/>
+    <child link="Right_Leg_Assembly_1_Screw_for_Nut_1"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="1" velocity="1" lower="-0.1" upper="0.1"/>
+  </joint>
+  <joint name="Slider_1-1" type="prismatic">
+    <origin xyz="0 0 -0.00225" rpy="3.1415927 0 3.1415927"/>
+    <parent link="Right_Leg_Assembly_4_Ball_Clamp_1"/>
+    <child link="Right_Leg_Assembly_4_Screw_for_Nut_1"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="1" velocity="1" lower="-0.1" upper="0.1"/>
+  </joint>
+  <joint name="Slider_1-2" type="prismatic">
+    <origin xyz="0 0 -0.00225" rpy="3.1415927 0 3.1415927"/>
+    <parent link="Right_Leg_Assembly_3_Ball_Clamp_1"/>
+    <child link="Right_Leg_Assembly_3_Screw_for_Nut_1"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="1" velocity="1" lower="-0.1" upper="0.1"/>
+  </joint>
+  <joint name="Slider_1-3" type="prismatic">
+    <origin xyz="0 0 -0.00225" rpy="3.1415927 0 3.1415927"/>
+    <parent link="Right_Leg_Assembly_2_Ball_Clamp_1"/>
+    <child link="Right_Leg_Assembly_2_Screw_for_Nut_1"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="1" velocity="1" lower="-0.1" upper="0.1"/>
+  </joint>
+</robot>

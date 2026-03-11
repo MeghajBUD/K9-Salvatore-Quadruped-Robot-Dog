@@ -1,6 +1,6 @@
 % Model         :   PMSM Field Oriented Control
 % Description   :   Set Parameters for PMSM Field Oriented Control
-% File name     :   mcb_pmsm_foc_hall_f28379d_data.m
+% File name     :   mcb_pmsm_foc_hall_AK45_10_KV75_data.m
 
 % Copyright 2020-2024 The MathWorks, Inc.
 
@@ -21,7 +21,7 @@ dataType = 'single';                % Floating point code-generation
 
 %% System Parameters
 % Motor parameters
-pmsm = getMotorParameters('AK45_10_KV75')
+pmsm = getMotorParameters('AK45_36_KV80');
 pmsm.PositionOffset = 0.17;         % Per-Unit position offset
 
 %% Target & Inverter Parameters
